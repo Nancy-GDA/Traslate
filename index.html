@@ -8,25 +8,37 @@
     <link rel="stylesheet" href="./style.css">
     <title>Traslate</title>
 </head>
-<body>
+<body>  
     <section class="container">
         <div class="titles">
             <h1>Traductor de idiomas</h1>
             <h2>Ingresa el texto a traducir</h2>
         </div>
-        <section class="first-container" >
-            <div class="text-origin">
-                <input type="text" class="input-text">
+            <div class="option-lenguage">
+                <div class="first-option">
+                    <label for="translated-from" class="translated-from">Traducir del:</label>
+                    <select name="lenguage" id="translated-from" class="translated-from">
+                        <option value="Español" class="translated-from">Español</option>
+                    </select>
+                </div>
+                <div class="second-option">
+                    <label for="translated-to" class="translated-to">Al :</label>
+                    <select name="translated-to" id="translated-to" class="translated-to">
+                        <option value="Español" class="translated-to">Ingles</option>
+                    </select>
+                </div>
+                
             </div>
-            <div class="text-traslate">
-                <input type="text" class="input-text">
+            <di class="container-texts">
+                <div class="container-text-origin">
+                    <textarea name="" id="translated-from" cols="50" rows="10" class="text-orgin "></textarea>
+                </div> 
+                <button class="traslate">Traducir</button>
+                <div class="container-text-traslate">
+                    <textarea name="" id="translated-to" cols="50" rows="10"></textarea>
+                </div>
             </div>
-        </section>
-        <button class="traslate">Traducir</button>
-        <img src="" alt="">
+            
     </section>
-    <form action="" type=""></form>
-    <label for=""></label>
-
 </body>
-</html> -->
+</html>
