@@ -63,6 +63,8 @@ cursor: pointer;
 }
 textarea{
     resize:none;
+    border-radius: 15px;
+    pad: 15px;
     }
 .traslate{
     width: 150px;
