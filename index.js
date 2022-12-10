@@ -43,9 +43,9 @@ traduceBtn.addEventListener('click', event=>{
     console.log(textOrigin)  
 //traigo estos parametros de la api y sustituyo el lenguaje que selecciono de inicio y al que quiero traducir
 const encodedParams = new URLSearchParams();
-    encodedParams.append("source_language",languageFrom);
-    encodedParams.append("target_language", languageTo);
-    encodedParams.append("text",languageTo );
+    encodedParams.append("source_language",languageFrom)
+    encodedParams.append("target_language", languageTo)
+    encodedParams.append("text",languageTo)
 //Parametros que tiene la api para el metodo post es decir añadir elementos
 console.log(encodedParams)
     const options = {
